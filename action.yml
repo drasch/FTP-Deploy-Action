@@ -19,6 +19,10 @@ inputs:
     description: 'Passes through options into git-ftp'
     defaults: 
     required: false
+  git-known-hosts:
+    description: 'Passes through options into git-ftp'
+    defaults: 
+    required: false
 runs:
   using: 'docker'
   image: 'Dockerfile'
